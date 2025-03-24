@@ -1,0 +1,12 @@
+e605b3bfd19c8708bdd6db0dd463c577 *DESCRIPTION
+dd4427404565632749749bb52ab53628 *LICENSE
+aa8e541a2349388719fcbdcf4f9f50d4 *NAMESPACE
+0044c64fa591b7232b2a7fcd9ce9be85 *NEWS.md
+69b8b10d092a6ba5b24e54036749692a *R/redcap_to_duckdb.R
+3216dd8386b64009840f6dc3e055c21f *README.md
+b7007a8b37955b6fe064c026b116dfa2 *inst/audio/quack.wav
+d846b36e3471d13db8709c1fb7d52b69 *man/figures/redquack-hex.png
+e2bf70e1831916dcd139e395bf574430 *man/redcap_to_duckdb.Rd
+e7e5eb46d766fef2d7a5a113c953d621 *tests/testthat.R
+59cd98f5e06c472e11917f12a67be2c9 *tests/testthat/helper-redcap.R
+8b15c426436cc33c1908344c448c1335 *tests/testthat/test-redcap_to_duckdb.R

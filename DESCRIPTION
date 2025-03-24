@@ -1,0 +1,22 @@
+Package: redquack
+Title: Transfer 'REDCap' Data to 'DuckDB'
+Version: 0.1.1
+Authors@R: person("Dylan", "Pieper", , "dylanpieper@gmail.com", role = c("aut", "cre"))
+Description: Provides a single function to transfer 'REDCap' (Research Electronic
+    Data Capture) data to a 'DuckDB' database. Processes data in chunks to 
+    handle large datasets while minimizing memory usage. Features include 
+    resuming incomplete transfers, converting column types, tracking progress, 
+    logging operations in the database.
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+Imports: audio, beepr, cli, DBI, dplyr, duckdb, httr2, readr, utils
+Suggests: arrow, testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: R (>= 4.1.0)
+NeedsCompilation: no
+Packaged: 2025-03-22 03:27:31 UTC; dylanpieper
+Author: Dylan Pieper [aut, cre]
+Maintainer: Dylan Pieper <dylanpieper@gmail.com>
+Repository: CRAN
+Date/Publication: 2025-03-24 12:00:08 UTC
